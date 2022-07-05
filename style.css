@@ -10,8 +10,10 @@ h1{
     color: orange;
 
 }
-section{
+.flexible-container{
+
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -32,4 +34,33 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px orange;
+    border-left: 7px solid blue;
+}
+.Experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+}
+#AO{
+    border-left: 7px solid tomato;
+}
+
+footer p{
+    text-align: center;
+
+}
